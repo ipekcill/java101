@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class TaksimetreHesabi {
     public static void main(String[] args) {
         //DATA: Kilometre başına 2.20 tl, min. ücret 2o tl (indi bindi), taksimetre açılış ücreti 10 tl,odenecektutar;
-        double km,birimfiyat=2.20,odenecektutar=15;
+        double km,birimfiyat=2.20,odenecektutar=20;
         double minucret=20.0;
         Scanner girdi=new Scanner(System.in);
         System.out.println("km bilgisi giriniz:");
