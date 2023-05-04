@@ -7,6 +7,6 @@ public class KarsilastirmaOperatorleri {
         System.out.println(A>=C);
         System.out.println(C==(D/2));
         System.out.println((A<D)&&(B>C));
-        (A<D)&&(B>C)
+
     }
 }
