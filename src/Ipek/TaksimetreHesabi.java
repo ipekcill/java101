@@ -20,3 +20,8 @@ public class TaksimetreHesabi {
 
     }
 }
+/*
+boolean kosul= odenecek tutar<20;
+String st= kosul?"20": odenecektutar;
+System.out.println(st);
+ */

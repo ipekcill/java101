@@ -11,6 +11,7 @@ public class CalculatorDesign {
         System.out.print("n2");
         n2 = input.nextInt();
         System.out.print("1-Sum\n2-Subtraction\n3-Multiplication\n4-Division");
+        System.out.println();
         System.out.print("Which:");
         select = input.nextInt();
         if (select == 1) {
