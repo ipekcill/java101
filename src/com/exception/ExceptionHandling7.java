@@ -1,4 +1,4 @@
-package exception;
+package com.exception;
 
 public class ExceptionHandling7 {
     public static int findNumber(int[] arr, int input) {
