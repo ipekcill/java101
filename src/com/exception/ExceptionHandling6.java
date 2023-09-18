@@ -1,4 +1,4 @@
-package exception;
+package com.exception;
 
 public class ExceptionHandling6 {
     public static void main(String[] args) {
