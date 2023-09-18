@@ -1,11 +1,12 @@
 package Ipek;
+
 import java.util.Scanner;
 
 public class CalcDesignNew {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int sayi1,sayi2;
+        int sayi1, sayi2;
         int islem;
 
         System.out.print("1.Sayıyı giriniz: ");
@@ -20,27 +21,19 @@ public class CalcDesignNew {
 
         System.out.print("İslemi seçiniz: ");
         islem = scan.nextInt();
-        switch(islem) {
-            case 1:
-                System.out.println("Toplama işleminin sonucu = " + (sayi1 + sayi2));
-                break;
-            case 2:
-                System.out.println("Çıkarma işleminin sonucu = " + (sayi1 - sayi2));
-                break;
-            case 3:
-                if(sayi2==0){
+        switch (islem) {
+            case 1 -> System.out.println("Toplama işleminin sonucu = " + (sayi1 + sayi2));
+            case 2 -> System.out.println("Çıkarma işleminin sonucu = " + (sayi1 - sayi2));
+            case 3 -> {
+                if (sayi2 == 0) {
                     System.out.println("Hata: Sıfıra bölünemez");
-                }else
-                System.out.println("Bölme işleminin sonucu = " + (sayi1 / sayi2));
-                break;
-            case 4:
-                System.out.println("Çarpma işleminin sonucu = " + (sayi1 * sayi2));
-                break;
-            default:
-                System.out.println("Yanlış seçim yaptınız !!");
-
-
+                } else {
+                    System.out.println("Bölme işleminin sonucu = " + (sayi1 / sayi2));
+                }
+            }
+            case 4 -> System.out.println("Çarpma işleminin sonucu = " + (sayi1 * sayi2));
+            default -> System.out.println("Yanlış seçim yaptınız !!");
+        }
+    }
 
     }
-    }
-}

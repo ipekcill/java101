@@ -1,6 +1,6 @@
 package Ipek;
 
-public class Donguler {
+public class YeniKonu{
     public static void main(String[] args) {
         int a=1,b=3;
         if(a<b){

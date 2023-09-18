@@ -22,5 +22,6 @@ public class BMIIndex {
         System.out.println(str);
 
 
+
     }
 }
