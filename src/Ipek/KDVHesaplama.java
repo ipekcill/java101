@@ -20,10 +20,14 @@ public class KDVHesaplama {
         System.out.println("KDV'li tutar:"+kdvlitutar);
         System.out.println("KDV Oranı:"+kdvoran);
         System.out.println("KDV'siz tutar:" +price);
+       /*
        boolean kosul=kdvlitutar>120;
        String str=kosul? "Uygun değil":"Uygun";
-        System.out.println(str);
-
+       System.out.println(str);
+        */
+        String result;
+        result= (kdvlitutar>120)? "Uygun değil":"Uygun";
+        System.out.println(result);
 
 
     }

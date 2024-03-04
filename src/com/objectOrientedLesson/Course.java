@@ -3,15 +3,11 @@ package com.objectOrientedLesson;
 public class Course {
     private String courseName;
     private String courseCode;
-    private int note;
 
-    public int getNote() {
-        return note;
-    }
 
-    public void setNote(int note) {
-        this.note = note;
-    }
+
+
+
 
     public Course(String courseName, String courseCode) {
         this.courseName = courseName;
@@ -33,13 +29,22 @@ public class Course {
     public void setCourseCode(String courseCode) {
         this.courseCode = courseCode;
     }
-    public double calcCourseAvg (Student[] notes){
-        double sum=0;
-        for (Student student : notes) {
-            sum += student.getNote1();
+
+    public double calcCourseAvg2(Double[] notes2) {
+        double sum = 0;
+        for (Double items : notes2) {
+            sum += items;
         }
-        return sum/notes.length;
+        return sum / notes2.length;
+    }
+    public double calcCourseAvg1(Double[] notes1) {
+        double sum = 0;
+        for (Double items : notes1) {
+            sum += items;
+        }
+        return sum / notes1.length;
 
     }
+
 
 }

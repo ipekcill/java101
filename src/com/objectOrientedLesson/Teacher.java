@@ -4,7 +4,7 @@ public class Teacher {
     private String name;
     private String phoneNumber;
     private String branch;
-    private Course course;
+    private final Course course;
 
     public Teacher(String name, String phoneNumber, String branch, Course course) {
         this.name = name;

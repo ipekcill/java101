@@ -3,9 +3,9 @@ package com.exception;
 import java.util.*;
 
 public class ExceptionHandling3 {
-    public static void checkMatch(Object s) throws Exception {
+    public static void checkMatch(Object s) throws InputMismatchException {
         if (s instanceof String) {
-            throw new Exception("Mismatch detected");
+            throw new InputMismatchException("Mismatch detected");
         }
     }
 

@@ -16,8 +16,15 @@ public class DaireAlaniCevresi {
         cevre= 2*pi*radius;
 
         //önceki örnekteki gibi koşul nasıl uygulanr?
-        alan=(alan<20)? 10:alan;
+        /*alan=(alan<20)? 10:alan;
         System.out.println("Alan:"+alan);
         System.out.println("Çevre:" +cevre);
+
+         */
+         boolean result= (alan<20);
+        double area = result? 20 : alan;
+        System.out.println("Area:" + area);
+        System.out.println("Çevre:" + cevre);
+
     }
 }

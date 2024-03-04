@@ -9,7 +9,7 @@ public class ExceptionHandling6 {
             //System.out.println(s.toCharArray());
             System.out.println(character.toString());
         }catch (NullPointerException exception){
-            System.out.println(exception.getMessage());
+            System.out.println(exception.toString());
             System.out.println("Hata algılandı");
         }
     }

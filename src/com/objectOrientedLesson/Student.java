@@ -69,10 +69,7 @@ public class Student {
     }
 
 
-    public void calcAverage (){
-        this.setAverage((this.getNote1()+this.getNote2()) / 2);
-        System.out.println("Average of the"   + this.getName()+ " student " + this.getAverage());
-    }
+
     public boolean isPass(){
         if(this.getAverage()> 55){
             return true;
@@ -81,10 +78,14 @@ public class Student {
         }
     }
     public double getAverage() {
-        return average;
+        return calcAverage();
     }
 
     public void setAverage(double average) {
         this.average = average;
+    }
+    public double calcAverage (){
+        double average = (this.getNote1()+this.getNote2()) / 2;
+        return average;
     }
 }

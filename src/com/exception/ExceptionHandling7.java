@@ -1,7 +1,7 @@
 package com.exception;
 
 public class ExceptionHandling7 {
-    public static int findNumber(int[] arr, int input) {
+    public static int findNumber(int[] arr, int input) throws ArrayIndexOutOfBoundsException {
 
         if (input > 5) {
             throw new ArrayIndexOutOfBoundsException(" The input is larger than array size");
@@ -13,7 +13,7 @@ public class ExceptionHandling7 {
 
         try {
             int[] arr = {1, 2, 3, 4, 5, 6};
-            int input = 1;
+            int input = 7;
             System.out.println(findNumber(arr,input));
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());

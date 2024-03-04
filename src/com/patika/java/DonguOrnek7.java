@@ -10,7 +10,10 @@ public class DonguOrnek7 {
         System.out.print("enter n:");
         n = scan.nextInt();
         for (int i = 1; i <= n; i = i * 2) {
-            System.out.println("powers:" +i);
+            System.out.println("powers:" + i);
+
         }
     }
 }
+
+

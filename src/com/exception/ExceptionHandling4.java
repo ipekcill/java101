@@ -14,7 +14,7 @@ public class ExceptionHandling4 {
         System.out.print("Enter number: ");
         try {
             int number = sc.nextInt();
-            System.out.println("Result: " + calculate(number,1));
+            System.out.println("Result: " + calculate(number,0));
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }finally {
