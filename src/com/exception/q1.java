@@ -1,6 +1,6 @@
 package com.exception;
 
-public class q1 { // question
+public class q1 {
     public static String StringChallenge(int num) {
 
         int hours = num / 60;
